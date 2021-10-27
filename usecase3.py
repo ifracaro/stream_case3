@@ -129,7 +129,7 @@ if example == 'Email C':
 
     but1, but2, but3, but4, but5 = st.columns(5)
     if (but3.button("RUN")):
-        gif_runner = st.image('https://images.app.goo.gl/UZLujxbztcNsrqTr7')
+        gif_runner = st.image('https://tenor.com/TfON.gif')
         time.sleep(3)
         gif_runner.empty()
         st.write('\n\n\n')
