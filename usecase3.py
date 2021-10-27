@@ -31,7 +31,7 @@ st.sidebar.image(img_logo, width = 180)
 example = st.sidebar.selectbox("Select a file ", ['', 'Email A', 'Email B', 'Email C', 'Email D'])
 
 with header:
-    st.markdown('<div style="text-align:center"><span class="JTALK_1">J</span><span class="JTALK_2">AKALA // per Iren</span></div>', unsafe_allow_html=True)
+    st.markdown('<div style="text-align:center"><span class="JTALK_1">J</span><span class="JTALK_2">AKALA // per IREN</span></div>', unsafe_allow_html=True)
     st.markdown('<div style="text-align:center"><p class="big-font">Smistamento automatico di email</p></div>', unsafe_allow_html=True)  
     st.write('\n\n\n')
 
