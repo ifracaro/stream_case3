@@ -14,8 +14,8 @@ img_logo = Image.open('logo.png')
 white_img = Image.open('white.PNG')
 
 header = st.container()
-play = st.container()
-kpi = st.container()
+#play = st.container()
+#kpi = st.container()
 
 st.markdown("""
 <style>
