@@ -57,8 +57,9 @@ df8 = pd.DataFrame(np.array([['Numero fattura', '502001905884'], ['Nome Cognome'
 if example == 'Email A':
 
     st.write('\n\n\n')
-    st.write("DATA RICEZIONE EMAIL: '2021-02-06'")
-    st.write('Buongiorno,  vi rimando il documento compilato che mi avete mandato su mia richiesta allo scopo di richiedere il cambio di intestazione per fatturazione TARI a Bruna Rossi (mia mamma). Mio papà è deceduto in dicembre quindi mia mamma risulta intestataria delle bollette e unica domiciliata in casa. \n\nPer qualsiasi richiesta ulteriore vi chiedo di scrivere a questa mail. \n\nCordiali saluti, \n\nStefania Contesini')
+    #st.write("DATA RICEZIONE EMAIL: '2021-02-06'")
+    #st.write('Buongiorno,  vi rimando il documento compilato che mi avete mandato su mia richiesta allo scopo di richiedere il cambio di intestazione per fatturazione TARI a Bruna Rossi (mia mamma). Mio papà è deceduto in dicembre quindi mia mamma risulta intestataria delle bollette e unica domiciliata in casa. \n\nPer qualsiasi richiesta ulteriore vi chiedo di scrivere a questa mail. \n\nCordiali saluti, \n\nStefania Contesini')
+    st.image('A.PNG')
 
     but1, but2, but3, but_4, but_5 = st.columns(5)
     if (but3.button("RUN")):
@@ -96,9 +97,9 @@ if example == 'Email A':
 if example == 'Email B':
 
     st.write('\n\n\n')
-    st.write("DATA RICEZIONE EMAIL: '2021-02-26'")
-    st.write('Buongiorno,\n\nho effettuato un bonifico tramite home banking della fattura  n°0000002160085673 in data 05-02-2021.\nAd oggi sul portale di Iren questa bolletta risulta ancora da pagare.\nPotete controllare?\n\n\n\n\nGrazie.\n\nCordiali saluti,\n\nChiara Belicchi')
-    
+    #st.write("DATA RICEZIONE EMAIL: '2021-02-26'")
+    #st.write('Buongiorno,\n\nho effettuato un bonifico tramite home banking della fattura  n°0000002160085673 in data 05-02-2021.\nAd oggi sul portale di Iren questa bolletta risulta ancora da pagare.\nPotete controllare?\n\n\n\n\nGrazie.\n\nCordiali saluti,\n\nChiara Belicchi')
+    st.image('B.PNG')
 
     but1, but2, but3, but4, but5 = st.columns(5 )
     if (but3.button("RUN")):
@@ -134,8 +135,9 @@ if example == 'Email B':
 if example == 'Email C':
     
     st.write('\n\n\n')
-    st.write("DATA RICEZIONE EMAIL: '2021-02-25'")
-    st.write("Ad oggi, dopo l'invio di tre mail, non ho avuto alcun riscontro sull'avanzamento della pratica che faticosamente mi è stata identificata dal call center come 03299532.\nReitero la richiesta di essere contattato al più presto per comprendere come procedere e in che tempi.\n\nSaluti, \n\nCarlo Bima\n\n---------- Messaggio originale ---------- \n\nDa: carlo.bima@libero.it\n\nA: 'servizioclienti@gruppoiren.it' <servizioclienti@gruppoiren.it>\n\nData: 13/01/2021 13:03\n\nOggetto: Fwd: Franca Gallina - contratto Via degli Albanesi 11/17 16148 Genova\n\n\n\nInvio alla vostra attenzione per la terza volta la documentazione. Dal 5 gennaio che ho ricevuto mail di presa in carico dalla casella postale clienti, non ho avuto alcun riscontro e solo risposte molto lacunose dal vostro call center.\n\nTrovo la situazione scandalosa.\n\nAl momento devo far rientrare mia madre di 92 anni dall'ospedale e sono in enorme difficoltà a causa di IREN per l'assoluta incertezza sui tempi di attivazione della fornitura.\n\nVi chiedo di procedere con la pratica e di darmi un pronto riscontro appena possibile.\n\nCordiali saluti,\n\nCarlo Bima")
+    #st.write("DATA RICEZIONE EMAIL: '2021-02-25'")
+    #st.write("Ad oggi, dopo l'invio di tre mail, non ho avuto alcun riscontro sull'avanzamento della pratica che faticosamente mi è stata identificata dal call center come 03299532.\nReitero la richiesta di essere contattato al più presto per comprendere come procedere e in che tempi.\n\nSaluti, \n\nCarlo Bima\n\n---------- Messaggio originale ---------- \n\nDa: carlo.bima@libero.it\n\nA: 'servizioclienti@gruppoiren.it' <servizioclienti@gruppoiren.it>\n\nData: 13/01/2021 13:03\n\nOggetto: Fwd: Franca Gallina - contratto Via degli Albanesi 11/17 16148 Genova\n\n\n\nInvio alla vostra attenzione per la terza volta la documentazione. Dal 5 gennaio che ho ricevuto mail di presa in carico dalla casella postale clienti, non ho avuto alcun riscontro e solo risposte molto lacunose dal vostro call center.\n\nTrovo la situazione scandalosa.\n\nAl momento devo far rientrare mia madre di 92 anni dall'ospedale e sono in enorme difficoltà a causa di IREN per l'assoluta incertezza sui tempi di attivazione della fornitura.\n\nVi chiedo di procedere con la pratica e di darmi un pronto riscontro appena possibile.\n\nCordiali saluti,\n\nCarlo Bima")
+    st.image('C.PNG')
 
     but1, but2, but3, but4, but5 = st.columns(5)
     if (but3.button("RUN")):
@@ -180,8 +182,9 @@ if example == 'Email C':
 if example == 'Email D':
     
     st.write('\n\n\n')
-    st.write("DATA RICEZIONE EMAIL: '2021-05-01'")
-    st.write("Buongiorno,\n\nVi inoltro nuovamente mail, già inviatavi in data 13 aprile e della quale non ho ricevuto, come di consueto, la risposta automatica con l’indicazione del nr pratica assegnato. In attesa di vostro cortese riscontro, porgo cordiali saluti.\n\nFederica Rebolino\n\nmartedì 13 aprile 2021, 09:03 +0200 da Roberto e Federica <rebo.ricc@libero.it>:\n\nBuongiorno,\n\nVi riporto i dati per ottenere il rimborso di € 43,29 relativi alla fattura nr 502001905884 del 12/10/2020 scadenza il 2/11/2020, intestata a REBOLINO FEDERICA, nr cliente 10102553043, contratto nr. 00910012, in quanto pagata due volte. In attesa di vostro riscontro, porgo cordiali saluti.\n\nFederica Rebolino")
+    #st.write("DATA RICEZIONE EMAIL: '2021-05-01'")
+    #st.write("Buongiorno,\n\nVi inoltro nuovamente mail, già inviatavi in data 13 aprile e della quale non ho ricevuto, come di consueto, la risposta automatica con l’indicazione del nr pratica assegnato. In attesa di vostro cortese riscontro, porgo cordiali saluti.\n\nFederica Rebolino\n\nmartedì 13 aprile 2021, 09:03 +0200 da Roberto e Federica <rebo.ricc@libero.it>:\n\nBuongiorno,\n\nVi riporto i dati per ottenere il rimborso di € 43,29 relativi alla fattura nr 502001905884 del 12/10/2020 scadenza il 2/11/2020, intestata a REBOLINO FEDERICA, nr cliente 10102553043, contratto nr. 00910012, in quanto pagata due volte. In attesa di vostro riscontro, porgo cordiali saluti.\n\nFederica Rebolino")
+    st.image('D.PNG')
 
     but1, but2, but3, but4, but5 = st.columns(5)
     if (but3.button("RUN")):
