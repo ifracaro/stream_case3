@@ -38,7 +38,7 @@ with header:
 
 
 
-df1 = pd.DataFrame(np.array([['Voltura', '0.68'], ['Sales Process', '0.31'], ['Change Offer', '0.01']]), columns=['classe', 'probabilità'], index = None)
+df1 = pd.DataFrame(np.array([['Voltura', '0.88'], ['Sales Process', '0.09'], ['Change Offer', '0.03']]), columns=['classe', 'probabilità'], index = None)
 df2 = pd.DataFrame(np.array([['Nome Cognome', 'Bruna Rossi']]), columns = ['dati personali', 'valori'])
 
 df3 = pd.DataFrame(np.array([['Proved Payment', '0.83'], ['Payment Method', '0.12'], ['Payment Extension', '0.05']]), columns = ['classe', 'probabilità'], index = None)
@@ -60,14 +60,14 @@ if example == 'Email A':
     but1, but2, but3, but_4, but_5 = st.columns(5)
 
     if not (but3.button("RUN")):
-        st.image('A1.PNG')
+        st.image('AA.PNG')
 
     else:
         gif_runner = st.image('https://media.giphy.com/media/Qw4X3Fsf0N1VqFFUiBi/giphy.gif')
         time.sleep(3)
         gif_runner.empty()
 
-        st.image('A.PNG')
+        st.image('AA1.PNG')
         st.write('\n\n\n')
         st.markdown('<div style="text-align:left"><p class="big-font">Results</p></div>', unsafe_allow_html=True)
 
@@ -98,14 +98,14 @@ if example == 'Email B':
     but1, but2, but3, but4, but5 = st.columns(5)
 
     if not (but3.button("RUN")):
-            st.image('B1.PNG')
+            st.image('BB.PNG')
 
     else:
         gif_runner2 = st.image('https://media.giphy.com/media/l46Cq6Bro9CsP149q/giphy.gif')
         time.sleep(3)
         gif_runner2.empty()
 
-        st.image('B.PNG')
+        st.image('BB1.PNG')
         st.write('\n\n\n')
         st.markdown('<div style="text-align:left"><p class="big-font">Results</p></div>', unsafe_allow_html=True)
 
@@ -135,14 +135,14 @@ if example == 'Email C':
     but1, but2, but3, but4, but5 = st.columns(5)
 
     if not (but3.button("RUN")):
-        st.image('C1.PNG')
+        st.image('CC.PNG')
 
     else:
         gif_runner = st.image('https://media.giphy.com/media/Qw4X3Fsf0N1VqFFUiBi/giphy.gif')
         time.sleep(3)
         gif_runner.empty()
 
-        st.image('C.PNG')
+        st.image('CC1.PNG')
         st.write('\n\n\n')
         st.markdown('<div style="text-align:left"><p class="big-font">Results</p></div>', unsafe_allow_html=True)
         kpi1_col, kpi2_col = st.columns(2)
@@ -179,14 +179,14 @@ if example == 'Email D':
     but1, but2, but3, but4, but5 = st.columns(5)
 
     if not (but3.button("RUN")):
-        st.image('D1.PNG')
+        st.image('DD.PNG')
 
     else:
         gif_runner = st.image('https://media.giphy.com/media/Qw4X3Fsf0N1VqFFUiBi/giphy.gif')
         time.sleep(3)
         gif_runner.empty()
 
-        st.image('D.PNG')
+        st.image('DD1.PNG')
         st.write('\n\n\n')
         st.markdown('<div style="text-align:left"><p class="big-font">Results</p></div>', unsafe_allow_html=True)
         kpi1_col, kpi2_col = st.columns(2)
