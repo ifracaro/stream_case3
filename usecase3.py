@@ -39,16 +39,16 @@ with header:
 
 
 df1 = pd.DataFrame(np.array([['Voltura', '0.88'], ['Sales Process', '0.09'], ['Change Offer', '0.03']]), columns=['classe', 'probabilità'], index = None)
-df2 = pd.DataFrame(np.array([['Nome Cognome', 'Bruna Rossi']]), columns = ['dati personali', 'valori'])
+df2 = pd.DataFrame(np.array([['Nome Cognome', 'BXXX RXXX']]), columns = ['dati personali', 'valori'])
 
 df3 = pd.DataFrame(np.array([['Proved Payment', '0.83'], ['Payment Method', '0.12'], ['Payment Extension', '0.05']]), columns = ['classe', 'probabilità'], index = None)
 df4 = pd.DataFrame(np.array([['Numero fattura', '0000002160085673']]), columns = ['dati personali', 'valori'])
 
 df5 = pd.DataFrame(np.array([['Request Claim', '0.97'], ['Refund', '0.02'], ['Change Offer', '0.01']]), columns = ['classe', 'probabilità'], index = None)
-df6 = pd.DataFrame(np.array([['Numero pratica', '03299532'], ['Nome Cognome', 'Franca Gallina'], ['Indirizzo', 'Via degli Albanesi 11/17 16148 Genova']]), columns = ['dati personali', 'valori'])
+df6 = pd.DataFrame(np.array([['Numero pratica', '03299532'], ['Nome Cognome', 'FXXX GXXX'], ['Indirizzo', 'Via degli Albanesi 11/17 16148 Genova']]), columns = ['dati personali', 'valori'])
 
 df7 = pd.DataFrame(np.array([['Refund', '0.68'], ['Request Claim', '0.30'], ['Proved Payment', '0.02']]), columns = ['classe', 'probabilità'], index = None)
-df8 = pd.DataFrame(np.array([['Numero fattura', '502001905884'], ['Nome Cognome', 'Rebolino Federica'], ['id account', '10102553043'], ['codice contratto', '00910012']]), columns = ['dati personali', 'valori'])
+df8 = pd.DataFrame(np.array([['Numero fattura', '502001905884'], ['Nome Cognome', 'RXXX FXXX'], ['id account', '10102553043'], ['codice contratto', '00910012']]), columns = ['dati personali', 'valori'])
 
 
 
