@@ -47,7 +47,7 @@ df4 = pd.DataFrame(np.array([['Numero fattura', '0000002160085673']]), columns =
 df5 = pd.DataFrame(np.array([['Request Claim', '0.97'], ['Refund', '0.02'], ['Change Offer', '0.01']]), columns = ['class', 'probability'], index = None)
 df6 = pd.DataFrame(np.array([['Numero pratica', '03299532'], ['Name Surname', 'FXXX GXXX'], ['Address', 'Via degli Albanesi 11/17 16148 Genova']]), columns = ['personal data', 'values'])
 
-df7 = pd.DataFrame(np.array([['Refund', '0.68'], ['Request Claim', '0.30'], ['Proved Payment', '0.02']]), columns = ['classe', 'probabilità'], index = None)
+df7 = pd.DataFrame(np.array([['Refund', '0.68'], ['Request Claim', '0.30'], ['Proved Payment', '0.02']]), columns = ['class', 'probability'], index = None)
 df8 = pd.DataFrame(np.array([['Bill number', '502001905884'], ['Name Surname', 'RXXX FXXX'], ['id account', '10102553043'], ['Contract code', '00910012']]), columns = ['personal data', 'values'])
 
 
