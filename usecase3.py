@@ -194,15 +194,15 @@ if example == 'Email D':
         kpi1_col.markdown('<div style="text-align:right"><p class="med"> <b> Refund </b></p></div>', unsafe_allow_html=True)
         kpi1_col.markdown('<div style="text-align:left"><p class="medium-font">  Scoring table </div>', unsafe_allow_html=True)
         kpi1_col.dataframe(df7)
-        kpi1_col.markdown('<div style="text-align:left"><p class="medium-font"> <b> Informazioni personali estratte </b></p></div>', unsafe_allow_html=True)
+        kpi1_col.markdown('<div style="text-align:left"><p class="medium-font"> <b> Personal information extracted </b></p></div>', unsafe_allow_html=True)
         kpi1_col.dataframe(df8)
-        kpi1_col.markdown('<div style="text-align:right"><p class="medium-font"> <b> Presenza ricicli: </b></p></div>', unsafe_allow_html=True)
+        kpi1_col.markdown('<div style="text-align:right"><p class="medium-font"> <b> Recycle: </b></p></div>', unsafe_allow_html=True)
         kpi1_col.markdown('<div style="text-align:right"><p class="med"> <b> SI </b></p></div>', unsafe_allow_html=True)
 
         
         original1 = Image.open('MicrosoftTeams-image.png')
         kpi2_col.image(original1, width=40)
-        kpi2_col.markdown('<div style="text-align:center"><p class="medium-font"> <b> Inviata a: </b></p></div>', unsafe_allow_html=True)
+        kpi2_col.markdown('<div style="text-align:center"><p class="medium-font"> <b> Send to: </b></p></div>', unsafe_allow_html=True)
         kpi2_col.markdown('<div style="text-align:center"><p class="med"> <b> Refund team </b></p></div>', unsafe_allow_html=True)
         kpi2_col.markdown("<p>&nbsp;</p>",  unsafe_allow_html=True)
         kpi2_col.markdown("<p>&nbsp;</p>",  unsafe_allow_html=True)
